@@ -14,7 +14,7 @@
                 <img src="images/logo.png" alt="Papua New Guinea Christian Institute of Higher Education crest" />
                 <div>
                     <p class="logo-title">Papua New Guinea Christian Institute of Higher Education</p>
-                   <p class="logo-subtitle">Serving Papua New Guinea & International Communities</p>
+                    <p class="logo-verse">Matthew 6:33 — "But seek first His kingdom and His righteousness, and all these things will be given to you as well."</p>
                 </div>
             </a>
             <button class="menu-toggle" aria-label="Toggle navigation" aria-expanded="false">
@@ -32,7 +32,7 @@
                             <li><a href="team.html">Our Team</a></li>
                             <li><a href="mission.html">Mission</a></li>
                             <li><a href="vision.html">Vision</a></li>
-                       
+                            <li><a href="core.html">Core Values</a></li>
                         </ul>
                     </li>
                     <li class="has-submenu">
@@ -63,67 +63,170 @@
             <p>Our team of experienced lecturers, chaplains and support staff are passionate about helping every student thrive.</p>
             <a href="contact.html" class="btn"><i class="fas fa-comments"></i> Connect with us</a>
         </div>
-        <img src="images/staffs.jpg" alt="PNGC staff" />
+        <div class="media-overlay">
+            <video class="background-video" autoplay muted loop playsinline>
+                <source src="videos/bejhistory.mp4" type="video/mp4" />
+            </video>
+            <div class="overlay-content">
+                <p class="badge">Inspiring scholarship</p>
+                <h3>See the people shaping our campus</h3>
+                <a href="#profiles"><i class="fas fa-users"></i> Meet the team</a>
+            </div>
+        </div>
     </section>
 
     <main>
-        <section class="content-section">
+        <section class="content-section" id="profiles">
             <h2 class="section-title">PNG CIHE Staffs</h2>
-            <div class="card-grid">
-                <article class="card">
+            <div class="profile-grid">
+                <article class="profile-card">
                     <img src="images/dherst-1.jpg" alt="Director" />
-                    <h3>Dr. Miriam K. Pio</h3>
-                    <p>Director</p>
-                    <p>Educational leadership specialist focusing on teacher formation and policy.</p>
+                    <div class="profile-body">
+                        <h3>Dr. Miriam K. Pio</h3>
+                        <span class="tags"><i class="fas fa-graduation-cap"></i> PhD Ed. Leadership</span>
+                        <p class="role">Director</p>
+                        <div class="meta">
+                            <p><i class="fas fa-quote-left"></i> Champions teacher formation, policy, and accreditation.</p>
+                            <a href="mailto:miriam.pio@pngcihe.ac.pg"><i class="fas fa-envelope"></i> miriam.pio@pngcihe.ac.pg</a>
+                        </div>
+                        <div class="action-row">
+                            <a class="btn ghost" href="#profiles"><i class="fas fa-eye"></i> View profile</a>
+                            <span class="tags"><i class="fas fa-heart"></i> Service</span>
+                        </div>
+                    </div>
                 </article>
-                <article class="card">
+                <article class="profile-card">
                     <img src="images/unistaffs.jpg" alt="Academic dean" />
-                    <h3>Fr. Alex Waine</h3>
-                    <p>Academic Dean & Chaplain</p>
-                    <p>Coordinates curriculum, campus ministry and pastoral care.</p>
+                    <div class="profile-body">
+                        <h3>Fr. Alex Waine</h3>
+                        <span class="tags"><i class="fas fa-graduation-cap"></i> PhD Theology</span>
+                        <p class="role">Academic Dean &amp; Chaplain</p>
+                        <div class="meta">
+                            <p><i class="fas fa-quote-left"></i> Integrates curriculum, sacramental life, and pastoral care.</p>
+                            <a href="mailto:alex.waine@pngcihe.ac.pg"><i class="fas fa-envelope"></i> alex.waine@pngcihe.ac.pg</a>
+                        </div>
+                        <div class="action-row">
+                            <a class="btn ghost" href="#profiles"><i class="fas fa-eye"></i> View profile</a>
+                            <span class="tags"><i class="fas fa-cross"></i> Formation</span>
+                        </div>
+                    </div>
                 </article>
-                <article class="card">
+                <article class="profile-card">
                     <img src="images/p2.jpg" alt="Registrar" />
-                    <h3>Ms. Roselyn Kewa</h3>
-                    <p>Registrar</p>
-                    <p>Oversees student records, admissions and certification.</p>
+                    <div class="profile-body">
+                        <h3>Ms. Roselyn Kewa</h3>
+                        <span class="tags"><i class="fas fa-graduation-cap"></i> MPA</span>
+                        <p class="role">Registrar</p>
+                        <div class="meta">
+                            <p><i class="fas fa-quote-left"></i> Oversees admissions, certification, and digital records.</p>
+                            <a href="mailto:roselyn.kewa@pngcihe.ac.pg"><i class="fas fa-envelope"></i> roselyn.kewa@pngcihe.ac.pg</a>
+                        </div>
+                        <div class="action-row">
+                            <a class="btn ghost" href="#profiles"><i class="fas fa-eye"></i> View profile</a>
+                            <span class="tags"><i class="fas fa-database"></i> Records</span>
+                        </div>
+                    </div>
                 </article>
-                <article class="card">
+                <article class="profile-card">
                     <img src="images/p1.jpg" alt="Dean of students" />
-                    <h3>Mr. Lawrence Pumai</h3>
-                    <p>Dean of Students</p>
-                    <p>Leads student life, residence halls and leadership development.</p>
+                    <div class="profile-body">
+                        <h3>Mr. Lawrence Pumai</h3>
+                        <span class="tags"><i class="fas fa-graduation-cap"></i> MEd Leadership</span>
+                        <p class="role">Dean of Students</p>
+                        <div class="meta">
+                            <p><i class="fas fa-quote-left"></i> Leads residences, student leadership, and wellbeing programs.</p>
+                            <a href="mailto:lawrence.pumai@pngcihe.ac.pg"><i class="fas fa-envelope"></i> lawrence.pumai@pngcihe.ac.pg</a>
+                        </div>
+                        <div class="action-row">
+                            <a class="btn ghost" href="#profiles"><i class="fas fa-eye"></i> View profile</a>
+                            <span class="tags"><i class="fas fa-hand-holding-heart"></i> Care</span>
+                        </div>
+                    </div>
                 </article>
             </div>
         </section>
 
         <section class="content-section">
             <h2 class="section-title">Faculty spotlights</h2>
-            <div class="card-grid">
-                <article class="card">
+            <div class="profile-grid">
+                <article class="profile-card">
                     <img src="images/stdcon2.jpg" alt="ICT lecturer" />
-                    <h3>Sr. Bernadette Pek</h3>
-                    <p>ICT & Digital Ministry</p>
-                    <p>Certified Cisco instructor and mentor for women in STEM.</p>
+                    <div class="profile-body">
+                        <h3>Sr. Bernadette Pek</h3>
+                        <span class="tags"><i class="fas fa-graduation-cap"></i> PhD ICT</span>
+                        <p class="role">ICT &amp; Digital Ministry</p>
+                        <div class="meta">
+                            <p><i class="fas fa-quote-left"></i> Cisco-certified mentor expanding STEM for women.</p>
+                            <a href="mailto:bernadette.pek@pngcihe.ac.pg"><i class="fas fa-envelope"></i> bernadette.pek@pngcihe.ac.pg</a>
+                        </div>
+                        <div class="action-row">
+                            <a class="btn ghost" href="#profiles"><i class="fas fa-eye"></i> View profile</a>
+                            <span class="tags"><i class="fas fa-code"></i> Innovation</span>
+                        </div>
+                    </div>
                 </article>
-                <article class="card">
+                <article class="profile-card">
                     <img src="images/earlychildhood.jpg" alt="Education lecturer" />
-                    <h3>Mr. Tony Kele</h3>
-                    <p>Education Lecturer</p>
-                    <p>Specialises in early literacy and bilingual education methodologies.</p>
+                    <div class="profile-body">
+                        <h3>Mr. Tony Kele</h3>
+                        <span class="tags"><i class="fas fa-graduation-cap"></i> PhD Education</span>
+                        <p class="role">Education Lecturer</p>
+                        <div class="meta">
+                            <p><i class="fas fa-quote-left"></i> Specialises in bilingual literacy and experiential learning.</p>
+                            <a href="mailto:tony.kele@pngcihe.ac.pg"><i class="fas fa-envelope"></i> tony.kele@pngcihe.ac.pg</a>
+                        </div>
+                        <div class="action-row">
+                            <a class="btn ghost" href="#profiles"><i class="fas fa-eye"></i> View profile</a>
+                            <span class="tags"><i class="fas fa-book-open"></i> Pedagogy</span>
+                        </div>
+                    </div>
                 </article>
-                <article class="card">
+                <article class="profile-card">
                     <img src="images/carexpo2.jpg" alt="Business lecturer" />
-                    <h3>Mrs. Joyce Tangil</h3>
-                    <p>Business & Governance</p>
-                    <p>Entrepreneur and chartered accountant guiding social enterprise projects.</p>
+                    <div class="profile-body">
+                        <h3>Mrs. Joyce Tangil</h3>
+                        <span class="tags"><i class="fas fa-graduation-cap"></i> DBA</span>
+                        <p class="role">Business &amp; Governance</p>
+                        <div class="meta">
+                            <p><i class="fas fa-quote-left"></i> Chartered accountant guiding social enterprise ventures.</p>
+                            <a href="mailto:joyce.tangil@pngcihe.ac.pg"><i class="fas fa-envelope"></i> joyce.tangil@pngcihe.ac.pg</a>
+                        </div>
+                        <div class="action-row">
+                            <a class="btn ghost" href="#profiles"><i class="fas fa-eye"></i> View profile</a>
+                            <span class="tags"><i class="fas fa-briefcase"></i> Enterprise</span>
+                        </div>
+                    </div>
                 </article>
-                <article class="card">
+                <article class="profile-card">
                     <img src="images/12stdsassembly.jpg" alt="Student support" />
-                    <h3>Mr. Samu Kep</h3>
-                    <p>Student Support Coordinator</p>
-                    <p>Provides counselling, financial literacy workshops and alumni engagement.</p>
+                    <div class="profile-body">
+                        <h3>Mr. Samu Kep</h3>
+                        <span class="tags"><i class="fas fa-graduation-cap"></i> M.Ed Counselling</span>
+                        <p class="role">Student Support Coordinator</p>
+                        <div class="meta">
+                            <p><i class="fas fa-quote-left"></i> Leads wellbeing, financial literacy, and alumni engagement.</p>
+                            <a href="mailto:samu.kep@pngcihe.ac.pg"><i class="fas fa-envelope"></i> samu.kep@pngcihe.ac.pg</a>
+                        </div>
+                        <div class="action-row">
+                            <a class="btn ghost" href="#profiles"><i class="fas fa-eye"></i> View profile</a>
+                            <span class="tags"><i class="fas fa-hand-holding-heart"></i> Care</span>
+                        </div>
+                    </div>
                 </article>
+            </div>
+        </section>
+
+        <section class="content-section">
+            <div class="media-grid">
+                <div>
+                    <h2 class="section-title">Team in action</h2>
+                    <p>See our faculty facilitating workshops, community outreach, and worship. Beautiful campus imagery and videos showcase how we serve Papua New Guinea and the international community.</p>
+                    <a class="btn secondary" href="about.html"><i class="fas fa-photo-video"></i> Explore more moments</a>
+                </div>
+                <video controls poster="images/carexpo3.jpg">
+                    <source src="videos/bejhistory.mp4" type="video/mp4" />
+                    Your browser does not support the video tag.
+                </video>
             </div>
         </section>
     </main>
