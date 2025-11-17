@@ -23,6 +23,17 @@ body {
     line-height: 1.6;
 }
 
+.sr-only {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    padding: 0;
+    margin: -1px;
+    overflow: hidden;
+    clip: rect(0, 0, 0, 0);
+    border: 0;
+}
+
 a {
     color: inherit;
 }
@@ -597,6 +608,95 @@ input[type="submit"],
     display: grid;
     gap: 0.35rem;
     margin-top: 0.35rem;
+}
+
+.profile-hero {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+    gap: 2rem;
+    align-items: center;
+    padding: 3rem 1.5rem;
+}
+
+.profile-hero img {
+    width: 100%;
+    max-width: 420px;
+    height: auto;
+    border-radius: 16px;
+    box-shadow: 0 18px 40px rgba(0, 0, 0, 0.12);
+    justify-self: center;
+}
+
+.profile-hero .bio {
+    background: var(--light);
+    border-radius: 16px;
+    padding: 1.75rem;
+    box-shadow: 0 8px 24px rgba(0, 0, 0, 0.08);
+}
+
+.profile-hero .bio h1 {
+    margin-top: 0;
+}
+
+.profile-hero .meta {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.75rem;
+    margin: 1rem 0;
+}
+
+.profile-hero .meta span {
+    background: #f0f6ff;
+    color: #004aad;
+    padding: 0.45rem 0.75rem;
+    border-radius: 999px;
+    font-weight: 600;
+}
+
+.profile-hero .meta a {
+    color: #004aad;
+    font-weight: 700;
+}
+
+.profile-hero .quote {
+    font-size: 1.05rem;
+    line-height: 1.6;
+    margin: 1rem 0 0.5rem;
+}
+
+.profile-hero .quote i {
+    color: #004aad;
+    margin-right: 0.5rem;
+}
+
+.back-link {
+    display: inline-flex;
+    align-items: center;
+    gap: 0.5rem;
+    margin: 1.5rem;
+    font-weight: 700;
+}
+
+.profile-section {
+    border-top: 1px solid #e8e8e8;
+    margin-top: 2rem;
+}
+
+.pill-list {
+    list-style: none;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.6rem;
+    padding: 0;
+}
+
+.pill-list li {
+    background: var(--light);
+    border: 1px solid var(--border);
+    border-radius: 999px;
+    padding: 0.45rem 0.85rem;
+    font-weight: 600;
+    color: var(--text-muted);
 }
 
 .stats-grid {
