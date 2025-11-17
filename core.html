@@ -22,7 +22,7 @@
             </button>
             <nav aria-label="Main navigation">
                 <ul class="menu" id="main-menu">
-                    <li><a href="index.html" class="active">Home</a></li>
+                    <li><a href="index.html">Home</a></li>
                     <li class="has-submenu">
                         <a href="about.html">About Us</a>
                         <ul class="submenu">
@@ -32,7 +32,7 @@
                             <li><a href="team.html">Our Team</a></li>
                             <li><a href="mission.html">Mission</a></li>
                             <li><a href="vision.html">Vision</a></li>
-                            <li><a href="core.html">Core Values</a></li>
+                            <li><a href="core.html" class="active">Core Values</a></li>
                         </ul>
                     </li>
                     <li class="has-submenu">
@@ -58,66 +58,76 @@
 
     <section class="hero">
         <div>
-            <p class="badge">Who we are</p>
-            <h1>About Papua New Guinea Institute of Higher Education</h1>
-            <p>Papua New Guinea Institute of Higher Education exists to develop leaders who respond
-                courageously to the social, economic and spiritual needs of Papua New Guinea. Our
-                 integrated curriculum balances academic rigor, pastoral care and Melanesian cultural intelligence.</p>
-            <a href="mission.html" class="btn"><i class="fas fa-heart"></i> Explore our mission</a>
+            <p class="badge">Our compass</p>
+            <h1>Core values that move us forward</h1>
+            <p>PNG CIHE blends faith, scholarship, and service. These values guide how we teach, learn, and partner with our communities across Papua New Guinea and beyond.</p>
+            <div class="cta-group">
+                <a href="#values" class="btn"><i class="fas fa-heart"></i> See our values</a>
+                <a href="#portals" class="btn ghost"><i class="fas fa-video"></i> Partner portals</a>
+            </div>
         </div>
         <div class="media-overlay">
             <video class="background-video" autoplay muted loop playsinline>
                 <source src="videos/bejhistory.mp4" type="video/mp4" />
             </video>
             <div class="overlay-content">
-                <p class="badge">In motion</p>
-                <h3>Stories of faith, service and learning</h3>
-                <a href="core.html"><i class="fas fa-play-circle"></i> Watch our core values in action</a>
+                <p class="badge">Live backdrop</p>
+                <h3>Faith in action, captured on video</h3>
+                <a href="#portals"><i class="fas fa-arrow-down"></i> Explore the featured links</a>
             </div>
         </div>
     </section>
 
     <main>
-        <section class="content-section">
-            <h2 class="section-title">Institutional identity</h2>
-            <p class="section-lead">We are chartered by the Christian Principles and aligned with DHERST. Our culture is rooted in stewardship, hospitality and excellence.</p>
+        <section class="content-section" id="values">
+            <div class="section-header">
+                <h2 class="section-title">Core values</h2>
+                <p class="section-lead">Each value pairs mission-focused action with measurable outcomes for students, staff, and the wider community.</p>
+            </div>
             <div class="card-grid">
                 <article class="card">
-                    <h3>Holistic formation</h3>
-                    <p>We nurture intellectual curiosity, spiritual growth and professional competence through pastoral accompaniment and peer mentoring groups.</p>
+                    <h3><i class="fas fa-hands-praying"></i> Faith-centered formation</h3>
+                    <p>Daily worship, chaplaincy, and spiritual direction nurture compassionate leaders.</p>
                     <ul class="resource-list">
-                        <li>Weekly house meetings and chaplaincy support</li>
-                        <li>Ignatian-style reflection and journaling</li>
-                        <li>Community-based research in Port Moresby parishes</li>
+                        <li>Morning prayer and Eucharist</li>
+                        <li>Retreats that connect faith with research</li>
+                        <li>Peer mentoring in gospel values</li>
                     </ul>
                 </article>
-                <!---->
                 <article class="card">
-                    <h3>Leadership</h3>
-                    <p>We teach and mentor future leaders to serve with integrity and vision.</p>
+                    <h3><i class="fas fa-handshake-angle"></i> Integrity & service</h3>
+                    <p>We cultivate ethical decision-making and service learning across provinces.</p>
                     <ul class="resource-list">
-                        <li></li>
-                        <li>Joint teacher training with Papua New Guinea Christian Institute of Higher Education</li>
+                        <li>Community engagement with parishes</li>
+                        <li>Transparent governance and reporting</li>
+                        <li>Volunteer pathways for every student</li>
                     </ul>
                 </article>
-
-                <!-----
                 <article class="card">
-                    
-                    <h3>Quality assurance</h3>
-                    <p>We benchmark against regional universities, complete annual program reviews and publish transparent data on graduate destinations.</p>
+                    <h3><i class="fas fa-lightbulb"></i> Excellence & innovation</h3>
+                    <p>Creative labs, research partnerships, and digital learning shape resilient graduates.</p>
                     <ul class="resource-list">
-                        <li>Annual external moderation</li>
-                        <li>Digital learning analytics</li>
-                        </ul>
-                </article>--->
+                        <li>Innovation sprints and project showcases</li>
+                        <li>Co-teaching with regional universities</li>
+                        <li>Scholarships for breakthrough ideas</li>
+                    </ul>
+                </article>
+                <article class="card">
+                    <h3><i class="fas fa-people-carry-box"></i> Community & care</h3>
+                    <p>Whole-person support ensures every learner belongs and thrives.</p>
+                    <ul class="resource-list">
+                        <li>Counselling and resilience coaching</li>
+                        <li>Family-inclusive education plans</li>
+                        <li>Safe residences with pastoral support</li>
+                    </ul>
+                </article>
             </div>
         </section>
 
-        <section class="content-section">
+        <section class="content-section" id="portals">
             <div class="section-header">
-                <h2 class="section-title">Core values on screen</h2>
-                <p class="section-lead">Explore the institutions and partners that shape our journey. Each highlight uses live video backgrounds so visitors can instantly feel the energy of our campuses.</p>
+                <h2 class="section-title">Partner links with live backdrops</h2>
+                <p class="section-lead">Three essential portals are showcased with looping video backgrounds so visitors can preview campus life while they click through.</p>
             </div>
             <div class="video-link-grid">
                 <article class="video-link">
@@ -126,7 +136,7 @@
                     </video>
                     <div class="video-overlay">
                         <h3><i class="fas fa-university"></i> PCU Website</h3>
-                        <p>Discover how Philippine Christian University collaborates with PNG CIHE to broaden global learning.</p>
+                        <p>Learn about our international academic bridge with Philippine Christian University.</p>
                         <a href="https://pcu.edu.ph" target="_blank" rel="noopener"><i class="fas fa-arrow-right"></i> Visit pcu.edu.ph</a>
                     </div>
                 </article>
@@ -136,7 +146,7 @@
                     </video>
                     <div class="video-overlay">
                         <h3><i class="fas fa-laptop"></i> PCU Admission Portal</h3>
-                        <p>Experience the admission pathway for future students through the dedicated MyPortal site.</p>
+                        <p>Start or continue your admission journey with the MyPortal experience.</p>
                         <a href="https://myportal.pcu" target="_blank" rel="noopener"><i class="fas fa-arrow-right"></i> Visit myportal.pcu</a>
                     </div>
                 </article>
@@ -146,7 +156,7 @@
                     </video>
                     <div class="video-overlay">
                         <h3><i class="fas fa-globe"></i> DHERST NOAS</h3>
-                        <p>Secure your Higher Education application through the national DHERST portal.</p>
+                        <p>Apply through the DHERST NOAS portal to secure your Higher Education choices.</p>
                         <a href="https://apply.dherst.gov.pg" target="_blank" rel="noopener"><i class="fas fa-arrow-right"></i> Visit apply.dherst.gov.pg</a>
                     </div>
                 </article>
@@ -154,57 +164,28 @@
         </section>
 
         <section class="content-section">
-            <h2 class="section-title">Milestones</h2>
-            <div class="timeline">
-                <div class="timeline-item">
-                    <h3>1981 – Founding</h3>
-                    <p>PNG CIHE opened as a teacher training centre to meet our country's urgent need for qualified educators.</p>
-                </div>
-                <div class="timeline-item">
-                    <h3>2024 – University affiliation</h3>
-                    <p>Signed partnership with the University of Phillipines to align curriculum, supervision and credit transfer pathways.</p>
-                </div>
-                <div class="timeline-item">
-                    <h3>2025 – Campus expansion</h3>
-                    <p>Construction of the Learning Facalities.</p>
-                </div>
-                
+            <div class="section-header">
+                <h2 class="section-title">Guiding commitments</h2>
+                <p class="section-lead">Our community is committed to transparency, resilience, and the dignity of every learner.</p>
             </div>
-        </section>
-
-        <section class="content-section">
-            <h2 class="section-title">Values in action</h2>
             <div class="card-grid">
                 <article class="card">
-                    <h3>Faith & Integrity</h3>
-                    <p>Daily prayer, Eucharist and counselling ensure students discern their vocation and lead with honesty.</p>
+                    <h3><i class="fas fa-book-bible"></i> Christ-centered scholarship</h3>
+                    <p>Curriculum, research, and community outreach are grounded in gospel values.</p>
                 </article>
                 <article class="card">
-                    <h3>Excellence & Innovation</h3>
-                    <p>Project-based learning, innovation sprints and peer observation drive continuous improvement.</p>
+                    <h3><i class="fas fa-helmet-safety"></i> Safe & inclusive campuses</h3>
+                    <p>Wellbeing frameworks and safeguarding protocols protect staff, students, and families.</p>
                 </article>
                 <article class="card">
-                    <h3>Community & Care</h3>
-                    <p>We prioritise trauma-informed support, community development projects and family-inclusive education plans.</p>
+                    <h3><i class="fas fa-seedling"></i> Sustainable development</h3>
+                    <p>We model stewardship through green facilities, responsible procurement, and community gardens.</p>
                 </article>
-                
-            </div>
-        </section>
-
-        <section class="content-section">
-            <div class="media-grid">
-                <div>
-                    <h2 class="section-title">Meet our community</h2>
-                    <p>Students represent 22 provinces, bringing languages, customs and talents that enrich our learning community. Teachers and chaplains accompany students individually through growth plans.</p>
-                    <a href="team.html" class="btn secondary"><i class="fas fa-users"></i> Meet our staff</a>
-                </div>
-                <iframe src="https://www.youtube.com/embed/-u4IruSO34c?list=RD-u4IruSO34c" title="Community spotlight" allowfullscreen></iframe>
             </div>
         </section>
     </main>
 
-  
-   <footer class="site-footer">
+    <footer class="site-footer">
         <div class="footer-grid">
             <div>
                 <h3>Papua New Guinea Christian Institute of Higher Education</h3>
