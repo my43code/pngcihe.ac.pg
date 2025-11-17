@@ -542,6 +542,15 @@ input[type="submit"],
     color: var(--primary);
 }
 
+.profile-card .email-link {
+    color: var(--primary-dark);
+    font-weight: 700;
+    text-decoration: none;
+    display: inline-flex;
+    gap: 0.4rem;
+    align-items: center;
+}
+
 .profile-card .role {
     color: var(--text-muted);
     font-weight: 600;
@@ -578,6 +587,16 @@ input[type="submit"],
     gap: 0.35rem;
     color: var(--accent);
     font-weight: 700;
+}
+
+.profile-details[hidden] {
+    display: none;
+}
+
+.profile-details {
+    display: grid;
+    gap: 0.35rem;
+    margin-top: 0.35rem;
 }
 
 .stats-grid {

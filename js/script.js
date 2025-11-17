@@ -174,4 +174,25 @@
             });
         });
     }
+
+    document.querySelectorAll('.view-info').forEach(button => {
+        const profileBody = button.closest('.profile-body');
+        const details = profileBody ? profileBody.querySelector('.profile-details') : null;
+        const icon = button.querySelector('i');
+
+        if(!details){
+            return;
+        }
+
+        button.addEventListener('click', () => {
+            const shouldShow = details.hasAttribute('hidden');
+            details.hidden = !shouldShow;
+            button.setAttribute('aria-expanded', shouldShow ? 'true' : 'false');
+            button.lastChild.textContent = shouldShow ? ' Hide info' : ' View info';
+            if(icon){
+                icon.classList.toggle('fa-eye', !shouldShow);
+                icon.classList.toggle('fa-eye-slash', shouldShow);
+            }
+        });
+    });
 })();
